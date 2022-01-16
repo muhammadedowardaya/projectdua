@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T10:59:01.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="amrqsVXdYPTrPbrFC2Oc" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T11:08:32.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="eqG46jJ0NDnVoLXsgtKL" version="16.2.7" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1021" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1736" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,18 +57,31 @@
         <mxCell id="mVRmNX9b32Lw5_XvcHBD-74" value="Buat postingan baru" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
           <mxGeometry x="80" y="324.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mVRmNX9b32Lw5_XvcHBD-84" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
-          <mxGeometry x="80" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="4" value="Admin" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="710" y="20" width="280" height="780" as="geometry" />
         </mxCell>
         <mxCell id="38" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" parent="4" vertex="1">
-          <mxGeometry x="130" y="500" width="30" height="30" as="geometry" />
+          <mxGeometry x="125" y="710" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="39" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="4" target="38" edge="1">
+        <mxCell id="mVRmNX9b32Lw5_XvcHBD-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="4" source="mVRmNX9b32Lw5_XvcHBD-90" target="mVRmNX9b32Lw5_XvcHBD-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mVRmNX9b32Lw5_XvcHBD-86" value="Disetujui" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="4">
+          <mxGeometry x="100" y="315" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mVRmNX9b32Lw5_XvcHBD-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" source="mVRmNX9b32Lw5_XvcHBD-88" target="38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mVRmNX9b32Lw5_XvcHBD-88" value="Postingan di publish" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="80" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mVRmNX9b32Lw5_XvcHBD-90" value="Ya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4">
+          <mxGeometry x="110" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mVRmNX9b32Lw5_XvcHBD-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="4" source="mVRmNX9b32Lw5_XvcHBD-86" target="mVRmNX9b32Lw5_XvcHBD-90">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="145" y="455" as="sourcePoint" />
+            <mxPoint x="850" y="415" as="sourcePoint" />
+            <mxPoint x="850" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mVRmNX9b32Lw5_XvcHBD-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7" target="mVRmNX9b32Lw5_XvcHBD-42">
@@ -111,6 +124,9 @@
               <mxPoint x="190" y="374" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mVRmNX9b32Lw5_XvcHBD-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mVRmNX9b32Lw5_XvcHBD-74" target="mVRmNX9b32Lw5_XvcHBD-86">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
